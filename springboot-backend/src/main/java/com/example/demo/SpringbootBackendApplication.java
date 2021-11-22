@@ -8,6 +8,7 @@ public class SpringbootBackendApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootBackendApplication.class, args);
+		System.out.println("Application is running");
 	     // String port=System.getenv("PORT");
 	     // String host=System.getenv("HOST");
 	    //  String mysql_user=System.getenv("MYSQL_USER");
